@@ -58,8 +58,7 @@ objectName[propName] // "FL"
 ```javascript
 objectName.age = 25;
 
-objectName["age"] = 30 // 30 
-// objectName = {...otherProps, age: 30}
+objectName["age"] = 25 // 25 
 ```
 ## Looping
 ```javascript
@@ -67,14 +66,6 @@ for (let property in objectName) {
   if (property === ...) {
     // Do things here
   }
-}
-
-for (let i = 0; i < 10; i++) {
-  // Do something here
-}
-
-while(condition) { // condition needs to be false at some point
-  // Do something here
 }
 ```
 ## Cloning keys
@@ -85,7 +76,7 @@ for (let property in objectName) {
   objectKeys.push(property);
 }
 
-console.log(objectKeys) // ["name", "age", "location"
+console.log(objectKeys) // ["name", "age", "location"]
 
 // alternatively
 const keys = Object.keys(objectName); 
@@ -159,5 +150,5 @@ objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ```javascript
   objectName.sayMyAge();   // "Bonjour Mathieu."
-                // "I'm 25 years old."
+                          //  "I'm 25 years old."
   ```
