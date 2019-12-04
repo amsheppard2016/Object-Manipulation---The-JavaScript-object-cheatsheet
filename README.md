@@ -65,6 +65,8 @@ objectName["age"] = 25 // 25
 for (let property in objectName) {
   if (property === ...) {
     // Do things here
+  } else {
+  // do something otherwise
   }
 }
 ```
